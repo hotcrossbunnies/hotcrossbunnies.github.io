@@ -1,9 +1,9 @@
 # the hitbox command
-the parameters are !hitbox target {commands} excludedTarget
-an example is !hitbox partname {!sit hit} me
-this will make everyone *touching* the part (except for you) sit down
-"hit" in the {commands} parameter is the person touching the part
-the hit tag is both a player tag and a string. ||e.g. you can do !m hit, to return their display name, or !fling hit, to fling them||
+The parameters are `!hitbox target {commands} excludedTarget`.
+- An example is `!hitbox partname {!sit hit} me`
+- This will make everyone touching the part (except for you) sit down.
+"hit" in the {commands} parameter is the person touching the part.
+the hit tag is both a player tag and a string. <small>e.g. you can do !m hit, to return their display name, or !fling hit, to fling them</small>
 
 # all the keywords (that i know of)
 **player tags**
@@ -24,10 +24,9 @@ RNG(1/2) - gives a random number between the two inputs, the first number must b
 
 # repeat
 it is not a command, but repeats commands an amount of times
-the usage is repeat n [commands] end
+the usage is repeat number commands end
 for example, "repeat 10 !disguise me !wait 0.1 end"
-the maximum amount of repeats is 10
-||repeats used to be able to be embedded in eachother, but are not anymore, e.g. repeat 10 repeat 10 !sit end !jump end - sits 100 times, and jumps 10 times||
+the maximum amount of repeats is 100
 repeats are very useful for shortening strings by a LOT, for example a string i made:
 !clean repeat 10 !addpart me grey 1 0 block plastic yes no 1 1 1 0 -1.5 -10 90 0 60 aura !rotate me 0 36 end !particle parts 6900421398 50 5 5 white white 0 0 10 0 0 1000 1 yes top
 instead of having to copy everything inside the repeat and pasting it 10 times, i can put it in a repeat loop and it is much easier to use
