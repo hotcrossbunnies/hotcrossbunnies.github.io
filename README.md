@@ -13,8 +13,7 @@ for example, "repeat 10 !disguise me !wait 0.1 end"
 the maximum amount of repeats is 10
 repeats are very useful for shortening strings by a LOT, for example a string i made:
 `!clean repeat 10 !addpart me grey 1 0 block plastic yes no 1 1 1 0 -1.5 -10 90 0 60 aura !rotate me 0 36 end !particle parts 6900421398 50 5 5 white white 0 0 10 0 0 1000 1 yes top`
-instead of having to copy everything inside the repeat and pasting it 10 times, i can put it in a repeat loop and it is much easier to use
-the limit of this is if you want to have something change every single time (such as transparency) in a loop you cant ||although there is a scrpt to make commands like these, [here](https://pastebin.com/726LUaVm)||
+instead of having to copy everything inside the repeat and pasting it 10 times, i can put it in a repeat loop and it is much easier to use.
 
 ## Particle <small>ill add this because it has an insane amount of parameters</small>
 target - person (or part) you run it on
