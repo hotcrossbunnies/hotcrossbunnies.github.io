@@ -2,8 +2,10 @@
 The parameters are `!hitbox target {commands} excludedTarget`.
 - An example is `!hitbox partname {!sit hit} me`
 - This will make everyone touching the part (except for you) sit down.
+
 "hit" in the {commands} parameter is the person touching the part.
-the hit tag is both a player tag and a string. <small>e.g. you can do !m hit, to return their display name, or !fling hit, to fling them</small>
+The hit tag is both a player tag and a string.
+<small>e.g. you can do !m hit, to return their display name, or !fling hit, to fling them</small>
 
 # all the keywords (that i know of)
 **player tags**
