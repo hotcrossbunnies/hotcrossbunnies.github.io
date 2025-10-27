@@ -4,13 +4,6 @@ body {
   font-style: italic;
   margin: 2rem;
 }
-h1, h2, h3, h4, h5, h6 {
+body {
   font-style: italic;
-}
-a {
-  color: #0066cc;
-  text-decoration: underline;
-}
-* {
-  text-shadow: 0.5px 0.5px 0 #555;
 }
