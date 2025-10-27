@@ -1,3 +1,4 @@
+![1000005486](https://github.com/user-attachments/assets/40a2ca05-9229-465c-9d0d-0455496cf07b)
 # Commands
 ## Hitbox
 The parameters are `!hitbox target {commands} excludedTarget`.
@@ -15,7 +16,7 @@ repeats are very useful for shortening strings by a LOT, for example a string i 
 `!clean repeat 10 !addpart me grey 1 0 block plastic yes no 1 1 1 0 -1.5 -10 90 0 60 aura !rotate me 0 36 end !particle parts 6900421398 50 5 5 white white 0 0 10 0 0 1000 1 yes top`
 instead of having to copy everything inside the repeat and pasting it 10 times, i can put it in a repeat loop and it is much easier to use.
 
-## Particle <small>ill add this because it has an insane amount of parameters</small>
+## Particle
 target - person (or part) you run it on
 id - the image id of the particle
 rate - how fast particles are emitted
@@ -33,7 +34,7 @@ lifetime - how long each particle lasts
 locked - whether particles emit from one spot, or a random position in your torso, yes/no
 direction - what direction the particles emit out of. <small>e.g. top left back right front, won't matter if spread is 360</small>
 
-# Keywords <small>that i know of</small>
+# Keywords
 ## Player keywords
 me - yourself
 nearest - the nearest player to you
@@ -43,7 +44,8 @@ near - everyone in a range near you
 far - everyone that ISNT in the range near you
 random - a random player
 hit - this can only be used in the hitbox command, it is the person touching the part
-## String keywords <small>they return strings, not players</small>
+## String keywords
+<small>- they return strings, not players</small>
 mydisplay - your display name
 myusername - your username
 playercount - the amount of players in the server
