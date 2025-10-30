@@ -1,8 +1,0 @@
-title: The Chosen One but i made it Unofficial Wiki
-theme: jekyll-theme-minimal
-github:
-  is_project_page: false
-  is_user_page: false
-kramdown:
-  input: GFM
-  hard_wrap: truep9
